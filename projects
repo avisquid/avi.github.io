@@ -1,0 +1,20 @@
+Improbable AI Lab at MIT CSAIL | Researcher	       			            Aug 2025 – Present | Cambridge, MA
+•	Creating soccer playing and athletic humanoids advised by Nolan Fey and Pulkit Agrawal
+•	Tuned rewards and used a grid adaptive curriculum to successfully train soccer skill policies in Isaac Lab and Mjlab
+•	Modeled a pinhole camera to accurately simulate vision, mitigating sim-to-real gap while ensuring parallelization
+•	Designed multithreaded ball detection pipeline using color segmentation and CHT enabling 50 Hz policy rollouts
+•	Integrated Adversarial Motion Priors to regularize PPO training and produce more human-like behaviors
+•	Trained unsupervised actuator networks to accurately model dynamics of a custom humanoid neck
+•	Employed BeyondMimic to train soccer shooting policy with retargeted human motion captures
+SISSA mathLab | Research Intern    	       					 May 2025 – Aug 2025 | Trieste, Italy
+•	Improved PINA, an open-source physics-informed modeling package in the PyTorch Ecosystem
+•	Implemented the Equivariant Graph Neural Operator (EGNO) model with PyTorch Geometric, adding N-body system simulation, motion capture, and molecular dynamics modeling capabilities
+•	Developed user-friendly guides that convey complex concepts, enhancing package accessibility
+PoolBot | Python, Drake	       	               		   					Oct 2025 – Dec 2025
+•	Designed a mobile manipulation system achieving a 55% shot success rate and 2.4° mean angular error in autonomous multi-shot sequences
+•	Implemented a sampling-based shot solver with constrained inverse kinematics to execute precise strikes
+•	Engineered spatial force controllers to correct friction models, ensuring realistic ball rolling and collision dynamics
+Machine Learning Experimentation | Python, PyTorch	       	    		  	              May 2025 – Jul 2025
+•	Built reverse and forward mode auto-differentiation library to better understand a key piece of deep learning
+•	Recreated results from key papers detailing NLP applications of MLPs, RNNs, LSTMs, and Transformers
+•	Implemented common robot learning algorithms including DAgger, Flow Matching, PPO

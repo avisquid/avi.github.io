@@ -23,7 +23,7 @@
                   Avi Narula
                 </p>
                 <p>
-                  I'm a junior at MIT studying electrical engineering (6-5) and mathematics (18) interested in robotics and autonomy. Currently, I work in the Improbable AI Lab on humanoid athleticism advised by Nolan Fey and Pulkit Agrawal. Outside of academics, I am on the varsity water polo team.
+                  I'm a junior at <a href="https://www.mit.edu/">MIT</a> studying electrical engineering (6-5) and mathematics (18) interested in robotics and autonomy. Currently, I work in the <a href="https://improbableai.com/">Improbable AI Lab</a> on humanoid athleticism advised by <a href="https://nolie-rolie.github.io/">Nolan Fey</a> and <a href="https://people.csail.mit.edu/pulkitag/">Pulkit Agrawal</a>. Outside of academics, I am on the varsity water polo team.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:avin@mit.edu">Email</a> &nbsp;/&nbsp;
@@ -46,7 +46,7 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr>
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <h2>Projects</h2>
+                <h2>Experience</h2>
                 <!--
                 <p>
                   I'm interested in [topic A], [topic B], and [topic C]. Some papers are <span class="highlight">highlighted</span>.
@@ -59,60 +59,73 @@
 
 
             <!-- ===================================================================
-                 TEMPLATE: Publication entry. Copy this <tr>...</tr> block for each
-                 paper. Replace the image, title, authors, venue, links, and the
-                 description. Add bgcolor="#ffffd0" to the <tr> to highlight a paper.
+                 Project entry. Copy this <tr>...</tr> block for each project.
+                 Add bgcolor="#ffffd0" to the <tr> to highlight a project.
                  ==================================================================== -->
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <img src="images/paper_thumbnail.jpg" alt="project image" width="100%">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="#">
-                  <span class="papertitle">Paper Title Goes Here</span>
-                </a>
+                <span class="papertitle">Athletic Humanoids</span>
                 <br>
-                <strong>Avi Narula</strong>,
-                <a href="#">Co-author One</a>,
-                <a href="#">Co-author Two</a>
+                <a href="https://improbableai.com/">Improbable AI Lab</a>, MIT CSAIL
                 <br>
-                <em>Venue</em>, 2026
-                <br>
-                <a href="#">project page</a>
-                /
-                <a href="#">arXiv</a>
-                /
-                <a href="#">code</a>
+                <em>Aug 2025 &ndash; Present</em>
                 <p></p>
                 <p>
-                  A one- or two-sentence description of what this paper does and why
-                  it matters.
+                  Training soccer-playing, athletic humanoids in Isaac Lab and Mjlab. I tune rewards with a grid adaptive curriculum, simulate a pinhole camera to close the sim-to-real vision gap, and built a multithreaded color-segmentation + CHT ball detector for 50 Hz rollouts. I also use Adversarial Motion Priors and BeyondMimic to produce more human-like behavior, and trained actuator networks to model a custom humanoid neck.
                 </p>
               </td>
             </tr>
 
-            <!-- Highlighted example (note the bgcolor on the <tr>) -->
-            <tr bgcolor="#ffffd0">
+            <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <img src="images/paper_thumbnail.jpg" alt="project image" width="100%">
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="#">
-                  <span class="papertitle">Another Paper Title</span>
-                </a>
+                <span class="papertitle">PoolBot</span>
                 <br>
-                <a href="#">Co-author One</a>,
-                <strong>Avi Narula</strong>,
-                <a href="#">Co-author Two</a>
+                Python, Drake
                 <br>
-                <em>Venue</em>, 2025
-                <br>
-                <a href="#">project page</a>
-                /
-                <a href="#">arXiv</a>
+                <em>Oct 2025 &ndash; Dec 2025</em>
                 <p></p>
                 <p>
-                  A short description of this second paper.
+                  A mobile manipulation system that plays pool autonomously, reaching a 55% shot success rate and 2.4&deg; mean angular error over multi-shot sequences. I built a sampling-based shot solver with constrained inverse kinematics and spatial force controllers that correct friction models for realistic rolling and collision dynamics.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/paper_thumbnail.jpg" alt="project image" width="100%">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">PINA &mdash; Physics-Informed Modeling</span>
+                <br>
+                <a href="https://mathlab.sissa.it/">SISSA mathLab</a>, Trieste, Italy
+                <br>
+                <em>May 2025 &ndash; Aug 2025</em>
+                <p></p>
+                <p>
+                  Contributed to PINA, an open-source physics-informed modeling package in the PyTorch ecosystem. I implemented the Equivariant Graph Neural Operator (EGNO) with PyTorch Geometric &mdash; adding N-body, motion-capture, and molecular-dynamics simulation &mdash; and wrote user-friendly guides to make the package more accessible.
+                </p>
+              </td>
+            </tr>
+
+            <tr>
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <img src="images/paper_thumbnail.jpg" alt="project image" width="100%">
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <span class="papertitle">ML From Scratch</span>
+                <br>
+                Python, PyTorch
+                <br>
+                <em>May 2025 &ndash; Jul 2025</em>
+                <p></p>
+                <p>
+                  A series of from-scratch implementations to understand the internals of deep learning: a reverse- and forward-mode autodiff library, recreations of key NLP papers (MLPs, RNNs, LSTMs, Transformers), and common robot-learning algorithms including DAgger, Flow Matching, and PPO.
                 </p>
               </td>
             </tr>
