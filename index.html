@@ -10,6 +10,16 @@
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
+    <style>
+      img.thumb {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 4px;
+        display: block;
+      }
+    </style>
+
   </head>
 
   <body>
@@ -63,10 +73,10 @@
                  Add bgcolor="#ffffd0" to the <tr> to highlight a project.
                  ==================================================================== -->
             <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/paper_thumbnail.jpg" alt="project image" width="100%">
+              <td style="padding:16px;width:24%;vertical-align:middle">
+                <img src="images/humanoid.jpg" alt="Athletic humanoid robot" class="thumb">
               </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
+              <td style="padding:8px;width:76%;vertical-align:middle">
                 <span class="papertitle">Athletic Humanoids</span>
                 <br>
                 <a href="https://improbableai.com/">Improbable AI Lab</a>, MIT CSAIL
@@ -74,33 +84,35 @@
                 <em>Aug 2025 &ndash; Present</em>
                 <p></p>
                 <p>
-                  Training soccer-playing, athletic humanoids in Isaac Lab and Mjlab. I tune rewards with a grid adaptive curriculum, simulate a pinhole camera to close the sim-to-real vision gap, and built a multithreaded color-segmentation + CHT ball detector for 50 Hz rollouts. I also use Adversarial Motion Priors and BeyondMimic to produce more human-like behavior, and trained actuator networks to model a custom humanoid neck.
+                  Training soccer-playing, athletic humanoids using sim-to-real reinforcement learning.
                 </p>
               </td>
             </tr>
 
             <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/paper_thumbnail.jpg" alt="project image" width="100%">
+              <td style="padding:16px;width:24%;vertical-align:middle">
+                <a href="data/PoolBot.pdf">
+                  <img src="images/pool%20image.png" alt="PoolBot" class="thumb">
+                </a>
               </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <span class="papertitle">PoolBot</span>
+              <td style="padding:8px;width:76%;vertical-align:middle">
+                <a href="data/PoolBot.pdf"><span class="papertitle">PoolBot</span></a>
                 <br>
                 Python, Drake
                 <br>
                 <em>Oct 2025 &ndash; Dec 2025</em>
                 <p></p>
                 <p>
-                  A mobile manipulation system that plays pool autonomously, reaching a 55% shot success rate and 2.4&deg; mean angular error over multi-shot sequences. I built a sampling-based shot solver with constrained inverse kinematics and spatial force controllers that correct friction models for realistic rolling and collision dynamics.
+                  A mobile manipulation system that plays pool autonomously, reaching a 55% shot success rate and 2.4&deg; mean angular error over multi-shot sequences.
                 </p>
               </td>
             </tr>
 
             <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/paper_thumbnail.jpg" alt="project image" width="100%">
+              <td style="padding:16px;width:24%;vertical-align:middle">
+                <img src="images/paper_thumbnail.jpg" alt="project image" class="thumb">
               </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
+              <td style="padding:8px;width:76%;vertical-align:middle">
                 <span class="papertitle">PINA &mdash; Physics-Informed Modeling</span>
                 <br>
                 <a href="https://mathlab.sissa.it/">SISSA mathLab</a>, Trieste, Italy
@@ -108,16 +120,16 @@
                 <em>May 2025 &ndash; Aug 2025</em>
                 <p></p>
                 <p>
-                  Contributed to PINA, an open-source physics-informed modeling package in the PyTorch ecosystem. I implemented the Equivariant Graph Neural Operator (EGNO) with PyTorch Geometric &mdash; adding N-body, motion-capture, and molecular-dynamics simulation &mdash; and wrote user-friendly guides to make the package more accessible.
+                  Contributed to PINA, an open-source physics-informed modeling package in the PyTorch ecosystem. I mainly worked on the Equivariant Graph Neural Operator (EGNO) model.
                 </p>
               </td>
             </tr>
 
             <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src="images/paper_thumbnail.jpg" alt="project image" width="100%">
+              <td style="padding:16px;width:24%;vertical-align:middle">
+                <img src="images/paper_thumbnail.jpg" alt="project image" class="thumb">
               </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
+              <td style="padding:8px;width:76%;vertical-align:middle">
                 <span class="papertitle">ML From Scratch</span>
                 <br>
                 Python, PyTorch
